@@ -61,3 +61,27 @@ y.reverse()
 print(y)
 print(y.index(1))
 print(y.index(3))
+
+dct={'id':'hong','pw':1234}
+print(dct)
+dct['email']= 'hong@daum.net'
+print(dct)
+dct[1] = 'one'
+print(dct)
+del dct[1]
+print(dct)
+
+print(dct.keys())
+print(dct.values())
+print(dct.items())
+print(dct.get('id'))
+print('id' in dct)
+dct.clear()
+print(dct)
+
+s1 = set([1,2,3])
+print(s1)
+s1 = set([1,2,3,1,2,5,4])
+print(s1)
+s2 = set('Hello')
+print(s2)
