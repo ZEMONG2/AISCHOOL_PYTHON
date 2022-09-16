@@ -15,11 +15,9 @@ while True:
 
     priceAll += dct['total']
 
-
-
 print("\n\t\t *** 상품정보 ***")
 print("====================================")
-print("제품코드   제품명    수량    단가    판매금액")
+print("제품코드   제품명    수량    단가    판매금액")ㄴ
 print("====================================")
 for list in lists:
     print("%s    %3s    %2d    %3d    %2d" %(list['prodCode'],list['prodName'],list['count'],list['price'],list['total']))
