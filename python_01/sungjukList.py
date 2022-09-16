@@ -91,7 +91,6 @@ def delete(f_students):
     else:
         print("삭제할 학번 %s가 없습니다." % a)
 
-
 if __name__ == "__main__":
     students = []
 
